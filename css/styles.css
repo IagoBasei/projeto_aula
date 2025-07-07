@@ -11,22 +11,22 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #1abc9c;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
+  --bs-blue: #009246; 
+  --bs-indigo: #ce2b37; 
+  --bs-purple: #ffffff;
+  --bs-pink: #ce2b37; 
+  --bs-red: #ce2b37; 
+  --bs-orange: #009246; 
+  --bs-yellow: #ffffff; 
+  --bs-green: #009246; 
+  --bs-teal: #ce2b37; 
+  --bs-cyan: #ffffff; 
+  --bs-black: #000; 
+  --bs-white: #fff; 
+  --bs-gray: #6c757d; 
+  --bs-gray-dark: #343a40; 
+  --bs-gray-100: #f8f9fa; 
+  --bs-gray-200: #e9ecef; 
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
@@ -34,50 +34,45 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+
+  --bs-primary: #009246; 
+  --bs-secondary: #ce2b37;
+  --bs-success: #009246;
+  --bs-info: #ffffff; 
+  --bs-warning: #ce2b37; 
+  --bs-danger: #ce2b37; 
+  --bs-light: #ffffff; 
+  --bs-dark: #343a40; 
+
+
+  --bs-primary-rgb: 0, 146, 70;
+  --bs-secondary-rgb: 206, 43, 55;
+  --bs-success-rgb: 0, 146, 70;
+  --bs-info-rgb: 255, 255, 255;
+  --bs-warning-rgb: 206, 43, 55;
+  --bs-danger-rgb: 206, 43, 55;
+  --bs-light-rgb: 255, 255, 255;
+  --bs-dark-rgb: 52, 58, 64;
+
+
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+
+
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: var(--bs-white);
+
+
   --bs-border-width: 0.125rem;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.5rem;
-  --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.75rem;
-  --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
-  --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
+  --bs-link-color: #009246;
   --bs-link-hover-color: #15967d;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-code-color: #ce2b37;
+  --bs-highlight-bg: var(--bs-gray-100);
 }
+
 
 *,
 *::before,
@@ -2846,19 +2841,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
+  --bs-btn-bg: #009246;
+  --bs-btn-border-color: #009246;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-hover-bg: #009246;
+  --bs-btn-hover-border-color: #009246;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #15967d;
+  --bs-btn-active-bg: #009246;
   --bs-btn-active-border-color: #148d75;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1abc9c;
-  --bs-btn-disabled-border-color: #1abc9c;
+  --bs-btn-disabled-bg: #009246;
+  --bs-btn-disabled-border-color: #009246;
 }
 
 .btn-secondary {
@@ -4281,6 +4276,24 @@ textarea.form-control-lg {
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+/* Garantir que todas as imagens dos cards tenham o mesmo tamanho visual e não quebrem o layout */
+.card-img-top {
+  width: 100%;
+  height: 220px; /* Altura padrão para desktop, ajustável */
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: var(--bs-border-radius) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+  background: #f8f9fa;
+  transition: height 0.2s;
+}
+
+@media (max-width: 767.98px) {
+  .card-img-top {
+    height: 160px; /* Altura menor para dispositivos móveis */
+  }
 }
 
 .card-img,
@@ -5976,6 +5989,26 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+}
+
+/* Imagens do carrossel dos produtos individuais (páginas de produto) */
+.carousel .carousel-item img,
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  background: #f8f9fa;
+  border-top-left-radius: var(--bs-border-radius) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+  transition: height 0.2s;
+}
+
+@media (max-width: 767.98px) {
+  .carousel .carousel-item img,
+  .carousel-inner > .carousel-item > img {
+    height: 180px;
+  }
 }
 
 .carousel-dark .carousel-control-prev-icon,
