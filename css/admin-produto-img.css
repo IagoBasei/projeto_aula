@@ -1,0 +1,18 @@
+.admin-produto-img {
+  max-width: 120px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .admin-produto-img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+}
